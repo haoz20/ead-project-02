@@ -1,12 +1,31 @@
+# Env files
 .env
+.env.*
+!.env.example
+
+# Dependencies
 node_modules/
+
+# Build outputs
 dist/
 build/
-.DS_Store
-.vscode/
-.idea/
-*.log
 coverage/
+
+# Logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Optional: local docker volumes / compose overrides
+docker-compose.override.yml
+
+# Optional: cache
+.vite/
+.cache/

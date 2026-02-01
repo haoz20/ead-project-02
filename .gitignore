@@ -5,6 +5,8 @@
 
 # Dependencies
 node_modules/
+apps/backend/storage/
+backend/data/videos.json
 
 # Build outputs
 dist/
